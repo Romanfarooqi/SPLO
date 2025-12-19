@@ -1,0 +1,98 @@
+.navbar{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+ text-decoration: underline;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards, .task-card, .goal-card, .habit-card, .note-card {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.cards{
+    flex: 1;
+    margin: 5px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1 blue);
+    transition: transform 0.2s;
+}
+
+.cards .card:hover{
+    transform: translateY(-5px);
+}
+
+.task-card, .habit-card, .note-card, .goal-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.task-card:hover, .habit-card:hover, .note-card:hover, .goal-card:hover {
+    transform: translateY(-3px);
+}
+
+.task-card.low{border-left: 5px solid green;}
+.task-card.medium{border-left: 5px solid orangered;}
+.task-card.high{border-left: 5px solid red;}
+
+input[type="checkbox"]{
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+}
+
+.progress-bar{
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.progress{
+    height: 10px;
+    background-color: #4caf50;
+
+}
+
+.qoute{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
