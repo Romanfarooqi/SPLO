@@ -1,2 +1,15 @@
 # SPLO
-A-web based system used to manage daily tasks, habits, goals and notes.
+# Smart Personal Life Organizer (SPLO)
+
+A simple web-based project developed using HTML and CSS.
+
+## Features
+- Dashboard
+- Tasks
+- Goals
+- Habits
+- Notes
+
+## Future Plan
+- JavaScript functionality
+- Backend & Database integration
